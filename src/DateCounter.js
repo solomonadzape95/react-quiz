@@ -13,7 +13,7 @@ function reducer(state, action) {
     case "setStep":
       return { ...state, step: action.payload };
     case "reset":
-      return initialState;git
+      return initialState;
     default:
       throw new Error("Action not Recognized");
   }
