@@ -12,7 +12,7 @@ import FinishScreen from "./FinishScreen";
 import Timer from "./Timer";
 import Footer from "./Footer";
 
-const SECS_PER_QUESTION = 30;
+const SECS_PER_QUESTION = 20;
 const initialState = {
   questions: [],
   //status can be 'loading', 'error', 'ready' 'active' or 'finished'
